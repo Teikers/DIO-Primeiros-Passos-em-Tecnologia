@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML na Prática</title>
+</head>
+<body>
+    <h1 id="start">Introdução ao HTML na Prática</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#ide">IDE - Visual Studio Code</a></li>
+        <li><a href="#basics">Estrutura básica do HTML</a></li>
+        <li><a href="#tags">Tags</a></li>
+        <li><a href="#text">Textos</a></li>
+        <li><a href="#lists">Listas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#inspection">Como inspecionar elementos</a></li>
+    </ul>
+
+    <h2 id="ide">IDE - Visual Studio Code</h2>
+    <small><a href="#start">&#60Voltar ao Início&#62</a></small>
+    <p>O <a href="https://code.visualstudio.com/">Visual Studio Code</a> é um ambiente de desenvolvimento integrado (IDE) altamente popular e amplamente utilizado, criado pela <strong>Microsoft</strong>. Ele oferece uma experiência de desenvolvimento eficiente e flexível para uma variedade de linguagens de programação e tecnologias. O funcionamento do Visual Studio Code é baseado em <mark>extensões</mark>, que são módulos adicionais que podem ser instalados para adicionar suporte a linguagens específicas, <i>frameworks</i> e funcionalidades personalizadas. Isso permite que os desenvolvedores personalizem sua experiência de trabalho, adaptando a IDE às suas necessidades. Com uma interface intuitiva, recursos de edição avançados, integração com sistemas de controle de versão e depuração, além de uma comunidade ativa que contribui com extensões, o Visual Studio Code se destaca como uma ferramenta poderosa para aumentar a produtividade no desenvolvimento de software.</p>
+    
+    <h2 id="basics">Estrutura básica do HTML</h2>
+    <small><a href="#start">&#60Voltar ao Início&#62</a></small>
+    <p>HTML, sigla para HyperText Markup Language (Linguagem de Marcação de Hipertexto), é a pedra fundamental da web. Ele consiste em uma estrutura hierárquica composta por elementos encapsulados em tags. Cada tag descreve o conteúdo ou a função de um elemento na página, como títulos, parágrafos, imagens e links. A estrutura básica do HTML geralmente inclui elementos como a tag <html> que engloba todo o documento, as tags <head> e <body> que contêm metadados e conteúdo visível, respectivamente. As tags são combinadas para criar páginas web estruturadas e significativas.</p>    
+
+    <h2 id="tags">Tags</h2>
+    <small><a href="#start">&#60Voltar ao Início&#62</a></small>
+    <p>No HTML, as tags são elementos fundamentais que marcam e estruturam o conteúdo de uma página web. Elas funcionam como instruções que delimitam o início e o fim de diferentes tipos de elementos, como títulos, parágrafos, imagens e links. Cada tag é composta por um nome que é colocado entre sinais de menor e maior <strong>("&#60" e "&#62")</strong>. Algumas tags podem conter atributos, que fornecem informações adicionais sobre o elemento, como seu comportamento ou aparência.</p>
+    <p>Para utilizar as tags em HTML, você as insere no código-fonte da página. A maioria das tags HTML possui uma forma de abertura e uma forma de fechamento. A forma de abertura inclui o nome da tag e, opcionalmente, atributos. A forma de fechamento inclui o mesmo nome de tag, mas precedido por uma barra <strong>("/")</strong>. O conteúdo a ser afetado pela tag é inserido entre as formas de abertura e fechamento. Por exemplo, para criar um parágrafo, você usaria <strong><code>&#60p></code></strong> para abrir e <strong><code>&#60/p></code></strong> para fechar, colocando o texto do parágrafo entre as duas tags: <strong><code>&#60p>Este é um exemplo de parágrafo.&#60/p></code></strong>. Assim, as tags desempenham um papel crucial na definição da estrutura e do significado do conteúdo em uma página web.</p>
+
+    <h2 id="text">Textos</h2>
+    <small><a href="#start">&#60Voltar ao Início&#62</a></small>
+    <p>As tags de texto em HTML desempenham um papel essencial na formatação e organização do conteúdo textual em uma página web. Elas permitem aos desenvolvedores controlar como o texto é exibido, desde a definição de títulos e parágrafos até a aplicação de ênfase e importância. As tags como <strong><code>&#60h1></code></strong> a <strong><code>&#60h6></code></strong> criam hierarquias de títulos, afetando o tamanho e a importância visual do texto, enquanto as tags <strong><code>&#60p></code></strong> delimitam blocos de parágrafos. Além disso, as tags de formatação, como <strong><code>&#60em></code></strong> e <strong><code>&#60strong></code></strong>, permitem adicionar ênfase e importância semântica ao conteúdo. Combinadas e usadas com outras tags, as tags de texto oferecem a base para criar páginas web bem estruturadas e visualmente agradáveis.</p>
+
+    <h2 id="lists">Listas</h2>
+    <small><a href="#start">&#60Voltar ao Início&#62</a></small>
+    <p>As tags de listas ordenadas e não ordenadas no HTML oferecem maneiras eficazes de apresentar informações de forma organizada. A tag <strong><code>&#60ul></code></strong> é usada para criar listas não ordenadas, onde cada item é precedido por um marcador, como um ponto ou um símbolo. Por outro lado, a tag <strong><code>&#60ol></code></strong> é empregada para criar listas ordenadas, onde cada item é numerado sequencialmente. Dentro dessas tags, os itens individuais são definidos usando a tag <strong><code>&#60li></code></strong>. A combinação dessas tags permite aos desenvolvedores criar listas de itens, tópicos ou passos em tutoriais de maneira clara e compreensível para os usuários. As listas ordenadas e não ordenadas desempenham um papel importante na formatação de conteúdo e na facilitação da leitura em páginas web.</p>
+
+    <h2 id="links">Links</h2>
+    <small><a href="#start">&#60Voltar ao Início&#62</a></small>
+    <p>As tags de links, com destaque para a tag <strong><code>&#60a></code></strong> em HTML, fornecem a essencial funcionalidade de navegação e conectividade na web. A tag <strong><code>&#60a></code></strong>, ou âncora, é usada para criar links entre páginas, recursos ou seções de conteúdo. O atributo href dentro da tag <a> especifica o destino do link, que pode ser uma URL externa, um arquivo local ou um identificador interno em uma página. Além disso, a tag <a> permite a criação de links de texto ou imagens, tornando possível a navegação entre diferentes partes do conteúdo ou entre páginas distintas. Os links são uma parte essencial da experiência de navegação na web, permitindo aos usuários acessar rapidamente informações relevantes e explorar diferentes recursos online.</p>
+
+    <h2 id="inspection">Como inspecionar elementos</h2>
+    <small><a href="#start">&#60Voltar ao Início&#62</a></small>
+    <p>Inspecionar elementos HTML em um navegador é uma habilidade fundamental para iniciantes no desenvolvimento web. Essa ferramenta, amplamente disponível nos navegadores modernos, permite examinar e entender a estrutura, o layout e o estilo de uma página web em tempo real. Para começar, basta clicar com o botão direito do mouse em qualquer parte da página e selecionar a opção "Inspecionar" ou "Inspecionar elemento" no menu que aparece.</p>
+    <p>Isso abrirá uma janela na parte inferior ou lateral da janela do navegador, conhecida como "DevTools" ou "Ferramentas de Desenvolvedor". Dentro dessa interface, você verá uma representação do código HTML da página, onde cada elemento é exibido em uma hierarquia de árvore. Ao clicar nos elementos na árvore ou passar o mouse sobre eles na página, o elemento correspondente na página será destacado, permitindo que você veja como os elementos HTML estão estruturados e posicionados visualmente.</p>
+    <p>Além disso, a seção "Styles" ou "Estilos" na ferramenta de inspeção mostra os estilos CSS aplicados a cada elemento, o que é valioso para entender como a aparência da página é controlada. Você pode experimentar alterações diretamente na ferramenta para ver como diferentes estilos afetam o visual da página, embora essas mudanças não sejam persistentes após atualizar a página.</p>
+    <p>Em resumo, a inspeção de elementos HTML em um navegador é uma maneira poderosa de aprender sobre a estrutura e o estilo das páginas web, permitindo que iniciantes compreendam melhor como os sites são construídos e personalizados. Essa habilidade é especialmente útil para resolver problemas de layout, depurar erros de código e melhorar suas habilidades de desenvolvimento web.</p>
+
+    <hr>
+    <blockquote>"I hope we will use the Net to cross barriers and connect cultures." Tim Berners-Lee - Inventor of HTML</blockquote>
+</body>
+</html>
